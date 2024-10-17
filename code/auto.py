@@ -4,6 +4,8 @@
 #                                                                #
 #****************************************************************#
 
+#!pip install pyautogui
+
 import pyautogui as at
 import time as tm
 
