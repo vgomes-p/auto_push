@@ -1,3 +1,9 @@
+#****************************************************************#
+#                                                                #
+#    Lembrete: Mude o caminho para o diretorio na linha 41!!!    #
+#                                                                #
+#****************************************************************#
+
 import pyautogui as at
 import time as tm
 
@@ -31,8 +37,8 @@ actenter("fish")
 tm.sleep(1)
 actenter("clear")
 
-#open direct
-actenter("cd /nfs/homes/vgomes-p/42/42zip/libft_hub")
+#open dir
+actenter("cd /nfs/homes/vgomes-p/42/42zip/libft_hub") #MUDAR O CAMINHO PRO DIRETORIO
 
 #git status
 actenter("git status")
