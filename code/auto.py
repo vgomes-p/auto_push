@@ -35,12 +35,16 @@ def minsr():
 #open terminal
 at.press("win")
 actenter("terminal")
+tm.sleep(1.5)
+maxsr()
 actenter("fish")
 tm.sleep(1)
 actenter("clear")
 
+
 #open dir
-actenter("cd /nfs/homes/vgomes-p/42/42zip/libft_hub") #MUDAR O CAMINHO PRO DIRETORIO
+actenter("cd repository")
+actenter("cd auto_push")
 
 #git status
 actenter("git status")
