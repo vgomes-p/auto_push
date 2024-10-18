@@ -1,6 +1,6 @@
 #****************************************************************#
 #                                                                #
-#    Lembrete: Mude o caminho para o diretorio na linha 41!!!    #
+#    Lembrete: Mude o caminho para o diretorio no open dir!!!    #
 #                                                                #
 #****************************************************************#
 
@@ -42,7 +42,7 @@ tm.sleep(1)
 actenter("clear")
 
 
-#open dir
+#open dir >>> FAZER TODOS CD SEPARADAMENTE
 actenter("cd repository")
 actenter("cd auto_push")
 
