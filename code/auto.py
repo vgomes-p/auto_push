@@ -20,18 +20,6 @@ def maxsr():
 	at.press("up")
 	at.keyUp("win")
 
-def splitsr():
-	at.keyDown("win")
-	at.press("right")
-	at.keyUp("win")
-
-def minsr():
-	at.keyDown("alt")
-	at.keyDown("space")
-	at.press("n")
-	at.keyUp("alt")
-	at.keyUp("space")
-
 #open terminal
 at.press("win")
 actenter("terminal")
@@ -54,7 +42,7 @@ tm.sleep(1.5)
 actenter("git add .")
 
 #git commit
-actenter('git commit -m "auto_commit_by_vgomes-p_py"')
+actenter('git commit -m "committed with github.com/vgomes-p/auto_push"')
 
 #git push
 actenter('git push')
