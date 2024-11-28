@@ -1,8 +1,7 @@
-#****************************************************************#
-#                                                                #
-#    Lembrete: Mude o caminho para o diretorio no open dir!!!    #
-#                                                                #
-#****************************************************************#
+#**********************************************************#
+# Lembrete: Mude o caminho para o diretorio no open dir!!! #
+# Reminder: Change the path to the directory in open dir!! #
+#**********************************************************#
 
 #!pip install pyautogui
 
